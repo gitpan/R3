@@ -1,5 +1,7 @@
 Revision history for Perl extension R3.
 
-0.01  Thu Oct 28 11:43:14 1999
-	- original version; created by h2xs 1.18
+0.30	1999-11-09
+	R3::conn, R3::func and R3::itab included in R3 distribution.
+	Added support for R/3 version < 40A.
+	New methods: R3::itab::line2record and record2line.
 

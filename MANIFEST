@@ -4,3 +4,6 @@ MANIFEST
 Makefile.PL
 R3.pm
 test.pl
+R3/conn.pm
+R3/func.pm
+R3/itab.pm

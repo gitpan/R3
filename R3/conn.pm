@@ -11,7 +11,7 @@ require AutoLoader;
 @EXPORT = qw( );
 @EXPORT_OK = qw( );
 
-$VERSION = '0.30';
+$VERSION = '0.31';
 
 #
 # Method implementation
@@ -123,8 +123,8 @@ R3::conn::new creates a new connection to a R/3 system. It takes the following n
   sysnr => alias for systemnr
   gwhost => gateway host, defaults to host
   gwservice => gateway service, defaults to service "sapgw##" with ## = 'sysnr'
-  trace => rfc trace on if set to non-zero value, defaults to 0 (off)
-  pre4 => should be set to non-zero value if target host has R/3 release < 40A
+  trace => rfc trace on if set to 1, defaults to 0 (off)
+  pre4 => should be set to true value if target host has R/3 release < 40A
 
 =head1 AUTHOR
 

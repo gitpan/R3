@@ -10,7 +10,7 @@ require AutoLoader;
 @ISA = qw(Exporter AutoLoader);
 @EXPORT = qw( );
 
-$VERSION = '0.30';
+$VERSION = '0.31';
 
 use R3::rfcapi;
 use R3::conn;
@@ -27,7 +27,7 @@ __END__
 
 =head1 NAME
 
-R3 - Perl object oriented client interface to SAP R/3 using RFCSDK
+R3.pm - Perl object oriented client interface to SAP R/3 using RFCSDK
 
 =head1 SYNOPSIS
 
@@ -40,7 +40,7 @@ R3 - Perl object oriented client interface to SAP R/3 using RFCSDK
 
 =head1 DESCRIPTION
 
-The R3 module provides an object oriented interface to SAP's RFCSDK for
+R3.pm provides an object oriented interface to SAP's RFCSDK for
 connection to an R/3 system. R3::conn is the object interface to R/3
 connections. R3::itab is the object interface to ABAP internal tables.
 R3::func is the object interface to ABAP RFC enabled functions.

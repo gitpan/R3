@@ -1,11 +1,11 @@
-R3 - Perl client interface to SAP R/3 using RFCSDK
+R3.pm - Perl interface to SAP R/3 using RFCSDK
 
 COPYRIGHT
 =========
 
 Copyright (c) 1999, Johan Schoen. All rights reserved.
 
-The perl modules R3, R3::rfcapi, R3::conn, R3::func and R3::itab
+The perl modules R3.pm, R3::rfcapi, R3::conn, R3::func and R3::itab
 are free software; you may use, modify and redistribute them
 under the same terms as Perl itself.
 
@@ -15,7 +15,7 @@ software owned by SAP AG.
 INTRODUCTION
 ============
 
-R3::conn, R3::func and R3::itab provide a object oriented interface
+R3::conn, R3::func and R3::itab provide a oriented interface
 to SAP R/3 remote function calls. The modules needs R3::rfcapi which
 provides a Perl interface to RFCSDK.
 
@@ -32,11 +32,11 @@ R3::* modules anyway.
 INSTALLATION
 ============
 
-R3 installation also installs R3::conn, R3::func and R3::itab.
-R3::rfcapi must be installed before R3. Version 0.30 of R3
-requires R3::rfcapi 0.30 or later.
+R3.pm installation also installs R3::conn, R3::func and R3::itab.
+R3::rfcapi must be installed before R3.pm. Version 0.31 of R3.pm
+requires R3::rfcapi 0.31 or later.
 
-To install R3 on Linux and other UNIX like systems:
+To install R3.pm on Linux and other UNIX like systems:
 	$ perl Makefile.PL
 	$ make
 	$ make test
@@ -52,7 +52,7 @@ On NT with VC++:
 AUTHOR
 ======
 
-R3, R3::rfcapi, R3::conn, R3::func and R3::rfcapi are written by
+R3.pm, R3::rfcapi, R3::conn, R3::func and R3::rfcapi are written by
 Johan Schoen, johan.schon@capgemini.se.
 
 TRADEMARK INFORMATION
